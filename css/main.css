@@ -984,6 +984,10 @@ input[type="submit"] {
 }
 
 @media only screen and (max-width: 720px) {
+    .footer {
+        background: linear-gradient(90deg, rgb(1, 18, 54), rgb(1, 47, 146));
+        padding: 2rem;
+    }
     .footer-container {
         flex-direction: column;
     }
